@@ -5,11 +5,12 @@
     'license': 'AGPL-3',
     'category': 'Sales',
     'summary': 'Adds "MKT Source" submenu to CRM Settings for managing utm.sources.',
+    'author': 'Ananias Filho',
     'depends': ['crm'],
     'data': [
-        'views/utm_source_views.xml',    # Listagem de utm.source com edição in-line
-        'views/segment_type_menu.xml',   # Menu de Configuração "MKT Source"
-        'security/ir.model.access.csv',  # Regras de segurança para o modelo utm.source
+        'views/utm_source_views.xml',
+        'views/segment_type_menu.xml',
+        'security/ir.model.access.csv',
     ],
     'installable': True,
     'application': False,
