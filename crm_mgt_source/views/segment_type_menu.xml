@@ -1,0 +1,10 @@
+<odoo>
+    <!-- Menu raiz do CRM -->
+    <menuitem id="crm.crm_menu_root" name="CRM" sequence="1"/>
+
+    <!-- Menu de Configurações do CRM -->
+    <menuitem id="crm.crm_menu_config" name="Configurações" parent="crm.crm_menu_root" sequence="10"/>
+
+    <!-- Submenu "MKT Source" dentro do menu Configurações -->
+    <menuitem id="crm_segment_type_menu" name="MKT Source" parent="crm.crm_menu_config" sequence="10" action="action_utm_source"/>
+</odoo>
